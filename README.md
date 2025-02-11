@@ -1,14 +1,28 @@
-# Azure-Based-Web-Infrastructure-Enhancement
+# Azure-Based Web Application Security Technical Overview
 
-Project Focus: Develop and secure a cloud-based web application for hosting a cyber blog, providing a secure platform for sharing cybersecurity insights and updates.
+## Project Focus
+Develop and secure a cloud-based web application for hosting a cyber blog, providing a secure platform for sharing cybersecurity insights and updates.
 
-Cloud Setup Overview: Built on Azure services to ensure high availability and scalability, using Azure App Service for web hosting and Azure SQL Database for data storage.
+## Cloud Setup Overview
+Built using Azure services to ensure high availability and scalability. The architecture leverages:
+- **Azure App Service** for web hosting
+- **Azure SQL Database** for data storage
 
-Components and Functionality: The application uses the Flask framework for backend logic and Bootstrap for a responsive frontend design. Authentication and authorization are managed with Azure Active Directory for enhanced security.
+## Components and Functionality
+The application utilizes the following technologies:
+- **Flask framework** for backend logic
+- **Bootstrap** for a responsive frontend design
+- **Azure Active Directory** for authentication and authorization, ensuring enhanced security.
 
-Traffic and Security: HTTPS traffic is enforced through Azure Front Door for secure communication. Role-based access control (RBAC) manages user permissions, with regular security audits and updates maintaining application integrity.
+## Traffic and Security
+- **HTTPS** traffic is enforced through **Azure Front Door** for secure communication.
+- **Role-based Access Control (RBAC)** manages user permissions, ensuring restricted access to sensitive parts of the application.
+- Regular **security audits** and **updates** are conducted to maintain application integrity and resilience.
 
-Conclusion: This project establishes a resilient platform for sharing cybersecurity knowledge by leveraging Azure’s services and best security practices, ensuring reliable performance and robust protection against threats.
+## Conclusion
+This project establishes a secure and reliable platform for sharing cybersecurity knowledge. By leveraging **Azure's services** and following best security practices, the platform ensures optimal performance and robust protection against potential threats.
+
+For more details, here is the link to the [Azure project](https://drive.google.com/file/d/10CKTco8fO2eqyulhzFZxxncWVhgMrkhI/view?usp=sharing)
 
 
 
